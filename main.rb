@@ -1,3 +1,6 @@
+require 'net/http'
+require 'json'
+
 def beep
   3.times { `afplay /System/Library/Sounds/Ping.aiff` }
 end
